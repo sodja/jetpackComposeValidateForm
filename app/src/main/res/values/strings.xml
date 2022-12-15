@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Jetpack Compose FormValidation</string>
+    <string name="password_length_error">The password needs to consist of at least 6 characters</string>
+    <string name="password_not_match">The password needs to contain at least capitalize letter, lower letter and digit</string>
+    <string name="repeat_password_incorrect">The passwords don\'t match</string>
+    <string name="email_not_match">That\'s not a valid email</string>
+    <string name="email_empty">The email can\'t be blank</string>
+    <string name="first_name_length_error">The firstName needs to consist of at least 4 characters</string>
+    <string name="last_name_length_error">The lastName needs to consist of at least 4 characters</string>
 </resources>

@@ -1,3 +1,6 @@
-package com.sodja.jetpackcomposeformvalidation.common
+package com.sodja.jetpackcomposeformvalidation.domain.model
 
-data class ValidationResult()
+data class ValidationResultModel(
+    val success: Boolean,
+    val errorMessage: String? = null,
+)

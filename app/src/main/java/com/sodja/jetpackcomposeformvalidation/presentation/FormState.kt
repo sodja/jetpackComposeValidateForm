@@ -1,6 +1,6 @@
 package com.sodja.jetpackcomposeformvalidation.presentation
 
-data class RegistrationFormState(
+data class FormState(
     val username: String= "",
     val usernameError: String? = null,
     val password: String= "",
